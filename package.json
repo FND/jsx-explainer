@@ -1,0 +1,14 @@
+{
+	"scripts": {
+		"start": "faucet --watch",
+		"test": "eslint --cache --ext .js --ext .jsx *.js src && echo ✓",
+		"compile": "faucet --compact"
+	},
+	"dependencies": {
+		"complate-dom": "^1.2.0"
+	},
+	"devDependencies": {
+		"eslint-config-fnd-jsx": "^1.6.0",
+		"faucet-pipeline-jsx": "~2.0.5"
+	}
+}
